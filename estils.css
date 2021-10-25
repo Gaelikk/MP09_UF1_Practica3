@@ -1,0 +1,98 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+.imatgefons{
+  background           : url(kebabback.jpg);
+  background-size      : 100%;
+  background-attachment: fixed;
+}
+
+.top{
+    height: 100%;
+}
+.top img{
+    width: 200px;
+    background: none;
+}
+.top img:hover{
+    background: coral;
+}
+
+.pagina {
+    border          : 2px solid black;
+    margin-left     : 5%;
+    margin-right    : 5%;
+    margin-top      : 3%;
+    background-color: gold;
+}
+
+.art1 {
+    margin-top: 10px;
+    margin-left : 0;
+    margin-right: 5%;
+    background-color: lightseagreen;
+    position: relative;
+}
+
+.art2 {
+    margin-left : 0;
+    margin-right: 5%;
+    background-color: lightcoral;
+    position: relative;
+}
+
+.art3 {
+    margin-left : 0;
+    margin-right: 5%;
+    background-color: lightgreen;
+    position: relative;
+}
+
+header h3 {
+    margin-top: 10px;
+}
+
+nav {
+    margin-top      : 30px;
+    width           : 20%;
+    padding-left    : 15px;
+    margin-right    : 15px;
+    padding-right   : 15px;
+    float           : left;
+    font-style      : italic;
+    background-color: lightgray;
+}
+
+nav li a {
+    list-style: none;
+}
+
+aside {
+    margin-top      : 15px;
+    width           : 20%;
+    padding-left    : 15px;
+    margin-left     : 15px;
+    padding-right   : 15px;
+    float           : right;
+    font-style      : italic;
+    background-color: lightgray;
+}
+
+footer {
+    margin-top: 60%;
+    height    : 150px;
+    text-align: center;
+    padding   : 3px;
+    background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+    color     : white;
+}
+
+.anunci {
+    background-color: green;
+    position        : fixed;
+    border          : 2px solid black;
+    margin          : -50px;
+    padding         : -50px;
+}
