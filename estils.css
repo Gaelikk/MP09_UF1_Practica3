@@ -12,12 +12,15 @@
 .top{
     height: 100%;
 }
+
 .top img{
     width: 200px;
     background: none;
 }
 .top img:hover{
-    background: coral;
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
 }
 
 .pagina {
@@ -26,6 +29,9 @@
     margin-right    : 5%;
     margin-top      : 3%;
     background-color: gold;
+}
+.art1, .art2, .art3{
+    border: 1px solid black;
 }
 
 .art1 {
@@ -93,6 +99,84 @@ footer {
     background-color: green;
     position        : fixed;
     border          : 2px solid black;
-    margin          : -50px;
-    padding         : -50px;
+    margin          : -90px;
+    margin-left: -140px;
 }
+
+.anunci img{
+    width: 120px;
+    height: auto;
+}
+
+.asidepare {
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.asidepare img {
+    display: block;
+  width: 100%;
+  height: auto;
+}
+
+.asidefill{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.asidepare:hover .asidefill {
+    opacity: 1;
+  }
+
+.textamagat {
+    color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.anunciimatgepare {
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.anunciiamtgefill{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: auto;
+    opacity: 0;
+    transition: width 2s;
+    width: 100px;
+    height: auto;
+    background: #008CBA;
+    transition: width 3s;
+}
+
+.anunciiamtgefill:hover{
+    width: 300px;
+}
+
+.anunciimatgepare:hover .anunciiamtgefill {
+    opacity: 1;
+  }
